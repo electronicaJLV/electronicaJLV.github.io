@@ -60,14 +60,18 @@ body {
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Inicio</a>
   <a href="servicios.html">Servicios</a>
-  <a href="contacto.html">Contacto</a>
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 <div id="main">
- <center>
-   <img src="logo3.png"><br>
-  </center>
+<center>
+<img src="logo3.png" height="100" >
+ <h1>Contactenos a través de:</h1>
+ <h2>Correo: jlv.electronics@gmail.com</h2>
+ <h2>Teléfono: 0416-0318091</h2>
+ <h2>Whatsapp: +584160318091</h2>
+</center>
 </div>
 
 <script>
@@ -79,6 +83,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
+}
+function volverInicio() {
+open("index.html");
 }
 </script>
      
