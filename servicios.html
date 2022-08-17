@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="style.css">
+<title>Electrónica Villacorta</title>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #327ffc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Inicio</a>
+  <a href="contacto.html">Contacto</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<div id="main">
+<center>
+<img src="logo3.png" height="100" >
+
+   <h1>¡Recupere su Inversión!</h1>
+  <h2>Reparamos sus artículos electrónicos dañados<br>
+  o si quiere deshacerse de ellos se les recibe como donación.<br><br></h2>
+<h3>
+  <table class='table1' width=80% >
+ 
+ <tr>
+<td></td><td></td>
+</tr>
+
+<tr>
+<td>Computadoras.</td>
+<td>Monitores.</td>
+</tr>
+<tr>
+<td>Teclados o Ratones.</td>
+<td>Impresoras.</td>
+</tr>
+<tr>
+<td>Televisores.</td>
+<td>Radios.</td>
+</tr>
+<tr>
+<td>Equipos de Sonido.</td>
+<td>Teléfonos.</td>
+</tr>
+<tr>
+<td>Juguetes.</td>
+<td>Video Juegos.</td>
+</tr>
+<tr>
+<td>Play Station.</td>
+<td>Wii.</td>
+</tr>
+<tr>
+<td>DS.</td>
+<td>Atari.</td>
+</tr>
+<tr>
+<td>Nintendo.</td>
+<td>Cargadores.</td>
+</tr>
+<tr>
+<td>Herramientas.</td>
+<td>Microondas.</td>
+</tr>
+<tr>
+<td>Laptops.</td>
+<td>Circuitos Electrónicos.</td>
+</tr>
+
+</h3>
+  
+ 
+ 
+  </center>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
+</body>
+</html> 
